@@ -3,6 +3,7 @@ name: cars
 
 Column 			    Type			    Attributes			        Index
 id			        BIGINT UNSIGNED		AUTO_INCREMENT, NOT NULL	PRIMARY KEY
+prezzo              DECIMAL(8,2)        NOT NULL
 marchio			    VARCHAR(255)		NOT NULL
 modello			    VARCHAR(255)		NOT NULL
 colore			    VARCHAR(255)		NULL
